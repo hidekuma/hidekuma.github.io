@@ -16,8 +16,8 @@
 theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 locale: ko-KR
-title: "Hide_action"
-description: "개발자 코스프레"
+title: "Hidekuma"
+description: "Developer Cosplay"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://hidekuma.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
