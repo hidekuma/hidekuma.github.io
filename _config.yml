@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
-locale: ko-KR
+locale: en-US
 title: "Hidekuma"
 description: "Developer Cosplay"
 baseurl: "" # the subpath of your site, e.g. "/blog"
