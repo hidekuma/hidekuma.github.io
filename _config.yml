@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
-locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+locale: ko-KR
+title: "Hide_action"
+description: "개발자 코스프레"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://hidekuma.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
