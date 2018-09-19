@@ -1,16 +1,12 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Hidekuma:
+  name: Hoiwoong Jung
+  #picture: /images/logo.jpg
+  #twitter: "@billyrick"
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.io/hidekuma
+      icon: fab fa-github-square
 
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
