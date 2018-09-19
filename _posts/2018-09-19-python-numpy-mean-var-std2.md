@@ -1,5 +1,5 @@
 ---
-title: "Python: 평균, 분산, 표준편차 구하기"
+title: "Python: Korean"
 sub_title: "The common elements"
 excerpt: "파이썬으로 평균, 분산, 표준편차 구하기"
 categories:
