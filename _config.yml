@@ -20,7 +20,7 @@ title: "Hidekuma"
 description: "Developer Cosplay now."
 baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: "https://hidekuma.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/images/logo.jpeg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
