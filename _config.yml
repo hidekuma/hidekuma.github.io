@@ -22,7 +22,7 @@ baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: "https://hidekuma.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/logo.jpeg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax: # MathJax equations, e.g. true
 google_fonts:
@@ -51,7 +51,7 @@ paginate: 10
 paginate_path: /page:num/
 
 # Search
-search_full_content: true# can have performance implications for large sites
+search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
@@ -87,17 +87,20 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Hoiwoong Jung
   picture:
-  email:
+  email: d.hidekuma@gmail.com
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Github
+      url: https://github.io/hidekuma
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  #- title: Feed
+  #  url: atom.xml
+  #  icon: fas fa-rss-square
+  - title: Github
+    url: https://github.io/hidekuma
+    icon: fab fa-github-square
