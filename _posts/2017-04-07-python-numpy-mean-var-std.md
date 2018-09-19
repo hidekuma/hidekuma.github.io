@@ -5,6 +5,7 @@ excerpt: "파이썬으로 평균, 분산, 표준편차 구하기"
 categories:
   - python
 	- numpy
+last_modified_at: 2018-02-01T10:16:49-05:00
 ---
 
 ## Answer
