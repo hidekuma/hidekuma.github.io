@@ -1,1 +1,0 @@
-# hidekuma.github.io
