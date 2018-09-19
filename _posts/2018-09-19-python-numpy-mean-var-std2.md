@@ -2,8 +2,13 @@
 title: "Python: Korean"
 sub_title: "The common elements"
 categories:
-  - python
-	- numpy
+  - Markup
+elements:
+  - content
+  - css
+  - formatting
+  - html
+  - markup
 ---
 
 ## Answer
