@@ -1,7 +1,7 @@
 ---
 title: "Python: 평균, 분산, 표준편차 구하기"
 excerpt: "파이썬으로 평균, 분산, 표준편차 구하기"
-tags: 
+categories:
   - python
 	- numpy
 ---
