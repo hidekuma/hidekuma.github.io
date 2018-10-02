@@ -1,6 +1,5 @@
 ---
-title: "Python: Korean"
-sub_title: "The common elements"
+title: "Python: 파이썬으로 표준편차, 평균, 분산 구하기"
 categories:
   - Markup
 elements:
@@ -11,9 +10,9 @@ elements:
   - markup
 ---
 
-## Answer
-
 평균, 분산, 표준편차의 뜻을 다들 알고 있기 때문에 이 곳에 도달했다고 가정하겠다. 단순하게 답만 보고가자.
+
+## Answer
 
 ```python
 import numpy
