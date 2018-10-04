@@ -104,8 +104,3 @@ footer_links:
   - title: Github
     url: https://github.com/hidekuma
     icon: fab fa-github-square
-# Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
