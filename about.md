@@ -3,7 +3,6 @@ title: About
 layout: page
 permalink: /about/
 collection: about
-entries_layout: grid
 ---
 
 ## 정 회웅(hidekuma)
@@ -17,7 +16,7 @@ Skills
 
 ### Backend 
 
-Langs
+Languages
 : Python, PHP, Java
 
 Databases
