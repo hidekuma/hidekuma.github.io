@@ -5,6 +5,7 @@ _site
 .jekyll-metadata
 .sass-cache
 *.gem
+*.swp
 *.sublime-project
 *.sublime-workspace
 codekit-config.json
