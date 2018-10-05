@@ -6,7 +6,11 @@ collection: about
 ---
 
 ## 정 회웅(hidekuma)
-Email: d.hidekuma@gmail.com
+개발을 좋아합니다. 새로운 기술에도 관심이 많습니다. 
+대학교 때, Java나 C언어 수업에는 정말 흥미가 없어서 개발자가 될 거라곤 꿈에도 생각못했으나, 졸업 후 희한하게  코드로 구현되는 `UI/UX`에 빠져 잠시 퍼블리싱을 경험했습니다.
+그 후 백엔드가 적성이 맞아,  어쩌다 보니 본격적인 시작은 프론트로 하여, 백엔드로 역행하는 개발자가 되었습니다.
+
+***Email: [d.hidekuma@gmail.com](mailto:d.hidekuma.gmail.com)***
 
 ---
 ## Skills
