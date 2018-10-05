@@ -163,7 +163,7 @@ def build(event):
 
 # S3에 넣는 로직
 def build_core(filename, url):
-	  S3ManagerCore.build(filename, url)
+    S3ManagerCore.build(filename, url)
 ```
 `@app.on_sqs_message(queue='imager-queue', batch_size=1)` 이라고 데코레이터를 먹이면 다음과 같이 event를 받아 올 수 있다. 이렇게 편할 수 없다. 또한, batch_size로 한번에 가져올 수 있는 Queue의 갯수를 정할 수 있다.
 
