@@ -2,14 +2,14 @@
 
 - title: About
   url: /about/
-- title: Home
-  url: /
+#- title: Home
+#  url: /
 - title: Posts
   url: /posts/
-#- title: Blogs
-#  url: /blogs/
-#- title: Categories
-#  url: /categories/
+- title: Blogs
+  url: /blogs/
+- title: Categories
+  url: /categories/
 #- title: Tags
 #  url: /tags/
 - title: Search
