@@ -91,10 +91,10 @@ app.py
 : SQS와 맵핑하는 실제 Working 코드가 쓰여있다.
 
 chalicelib
-: app.py나 다른 파이썬 코드에 자신이 만든 <U>커스텀 모듈을 import할 경우</U>에는, `chalicelib` 디렉토리는 만들어 넣어줘야 문제없이 deploy된다.
+: app.py나 다른 파이썬 코드에 자신이 만든 <U>커스텀 모듈을 import할 경우</U>에는, `chalicelib` 디렉토리를 만들어 넣어줘야 문제없이 deploy된다.
 
 S3_manager.py
-: S3 Bucket에 CRUD 코드이다.
+: S3 Bucket CRUD 코드이다.
 
 aws.py
 : S3_manager.py에서 이용하는 AWS Credentials 정보가 녹아져있다.
