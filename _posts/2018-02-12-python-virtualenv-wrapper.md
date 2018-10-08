@@ -87,22 +87,22 @@ $ deactivate
 ---
 ### 자주쓰는 commands
 
-mkvirtualenv [가상환경이름]
+- mkvirtualenv [가상환경이름]
 : 가상환경이름으로 가상환경을 만들어준다. `mkvirtualenv test -p [python-path]`로 python 버전을 지정해 줄 수 있다.
 
-rmvirtualenv [ 가상환경이름]
+- rmvirtualenv [ 가상환경이름]
 : 해당 가상환경을 지운다.
 
-workon [가상환경이름]
+- workon [가상환경이름]
 : 해당 가상환경으로 진입한다.
 
-servirtualenvproject
+- servirtualenvproject
 : 프로젝트 디렉토리로 이동 후, 해당 커맨드를 치면 디렉토리와 가상환경이 맵핑된다. 그러면 `workon`커맨드를 치는것 만으로 해당 디렉토리에 이동까지 시켜준다. 아주좋다.
 
-cdproject
+- cdproject
 : `setvirtualenvproject`를 했을 경우, 현재 어디에 있든 해당 커맨드로 프로젝트 디렉토리에 이동이 가능하다.
 
-deactivate
+- deactivate
 : 가상환경에서 빠져나온다.
  
 
