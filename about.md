@@ -43,7 +43,7 @@ Etc
 대한민국 육군 (2013.04 ~ 2015.01)
 : 병장 만기제대
 
-동경도시대학교 - [Tokyo City University](https://www.tcu.ac.jp/english/index.html) (2009.04 ~ 2013.03)
+동경도시대학교 - Tokyo City University (2009.04 ~ 2013.03)
 : 정보미디어학과
 : 미디어 커뮤니케이션 전공
 
