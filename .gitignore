@@ -8,6 +8,7 @@ _site
 *.swp
 *.sublime-project
 *.sublime-workspace
+vender/
 codekit-config.json
 Gemfile.lock
 node_modules
