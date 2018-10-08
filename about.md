@@ -33,7 +33,7 @@ Etc
 : AWS(EC2, Auto Scaling, Load Balancer, Lambda, Cloud Front, Route53, RDS, APIGateway, S3)
 
 ---
-## Time table
+## Timeline
 (주) 유니드컴즈 (2016.01 ~ )
 : Backend팀 선임
 
