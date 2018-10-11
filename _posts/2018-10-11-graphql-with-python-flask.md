@@ -18,6 +18,7 @@ tags:
 
 - 소스는 [graphql-python](https://github.com/graphql-python/graphene-sqlalchemy)을 참고하면 된다. 해당 소스를 `git clone` 후 `examples/flask_sqlalchemy`를 참고하였다.
 
+<!--more-->
 ---
 
 ### Install & Run
