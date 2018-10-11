@@ -285,4 +285,5 @@ def resolve_role(self, info, **kwargs):
   }
 }
 ```
+
 정상적으로 동작한다. 추후에는 좀더 `schema.py`를 커스텀해보려고 한다. 일단 오늘은 이걸로 마무리하겠다.
