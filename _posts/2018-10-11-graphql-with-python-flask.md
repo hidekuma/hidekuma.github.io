@@ -55,7 +55,6 @@ if __name__ == '__main__':
 ```
 - init_db()
 : 테스트를 진행하기 위한 모듈들을 만들어준다. 실제로 프로젝트에 적용시킬 경우에는 필요가 없다.
-플라스크 웹을 구현하는 코드다.
 
 - app.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
 : `/graphql`이라는 path를 만들어주고, `schema=schema`로 `GraphQlSchema`객체를 넣어주었다. 그리고 `graphiql=True`로 브라우저 view를 이용하는 걸 명시해주는 부분이다.
