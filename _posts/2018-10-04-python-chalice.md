@@ -191,4 +191,4 @@ Resources deployed:
 
 ![image-center]({{ '/images/post-imgs/aws-lambda-sqs.png' | absolute_url }}){: .align-center}
 
-실제로 SQS에 Queue를 날려보니 S3에 문제없이 적재되는 것을 확인하였다. 꼭 다음과 같은 방식이 아니더라도 여러 방면으로 활용성이 좋아보이는 Chalice였다. Zappa와는 다른점으로는 `app.py`에서 정의한 fucntion 만큼 각기 별도의 Lambda로 Deploy되어 여러개의 Lambda를 하나의 소스에서 통합관리가 가능해 보였다. (Zappa 같은경우, 하나의 Lambda에 url path에 따른 분기)
+실제로 SQS에 Queue를 날려보니 S3에 문제없이 적재되는 것을 확인하였다. 꼭 다음과 같은 방식이 아니더라도 여러 방면으로 활용성이 좋아보이는 Chalice였다. Zappa와는 다른점으로는 `app.py`에서 정의한 function 만큼 각기 별도의 Lambda로 Deploy되어 여러개의 Lambda를 하나의 소스에서 통합관리가 가능해 보였다. (Zappa 같은경우, 하나의 Lambda에 url path에 따른 분기)
