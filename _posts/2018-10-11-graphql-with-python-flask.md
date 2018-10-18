@@ -162,7 +162,7 @@ class Department(SQLAlchemyObjectType):
         model = DepartmentModel
         interfaces = (relay.Node, )
 
-class DepartmentConnection(relay.Connection):
+class DepartmentCon(relay.Connection):
     class Meta:
         node = Department
 
@@ -171,7 +171,7 @@ class Role(SQLAlchemyObjectType):
         model = RoleModel
         interfaces = (relay.Node, )
 
-class RoleConnection(relay.Connection):
+class RoleCon(relay.Connection):
     class Meta:
         node = Role
 
@@ -184,15 +184,18 @@ class Query(graphene.ObjectType):
         return role_query.filter(RoleModel.role_id.contains(kwargs.get('role_id')))
 
     # Allows sorting over multiple columns, by default over the primary key
-    all_roles = SQLAlchemyConnectionField(RoleConnection)
+    all_roles = SQLAlchemyConnectionField(RoleCon)
 
     # Disable sorting over this field
-    all_departments = SQLAlchemyConnectionField(DepartmentConnection, sort=None)
+    all_departments = SQLAlchemyConnectionField(DepartmentCon, sort=None)
 
 schema = graphene.Schema(query=Query, types=[Department, Role])
 ```
 `graphQL`의 핵심과 같은 부분이다. 클론한 소스로 `python app.py`하면, 아마 오류를 뿜뿜할 것이다. 상기 코드를 참고하면 된다.
 
+**AssertionError: Found different types with the same name in the schema**<br/>
+이 에러는 `backref`로 의존성관계를 명시해둔 모델이 있을경우 발생한다. 따라서 `Connection`이라는 네이밍을 `Con`이라던지 다른 값으로 바꾸면 간단히 해결할 수 있다.
+{: .notice--danger}
 
 5) 세팅은 완료되었다. 한번 실행시켜보자.
 ```bash
