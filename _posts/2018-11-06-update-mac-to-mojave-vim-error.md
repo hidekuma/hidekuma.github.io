@@ -12,7 +12,7 @@ tags:
 ---
 
 ### 맥 모하비 업데이트를 했느데 이게 왠걸.. vim이 에러뜨면서 꺼진다.
-**Exception MemoryError: MemoryError() in <module 'threading' from '/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.pyc'>**
+**Exception MemoryError: MemoryError() in module threading from python**
 
 모하비 업데이트시, 애플에서 `vim`을 강제 컴파일 하는걸로 알고있는데, 복불복인가. 주변 동료는 문제없이 업데이트 되었는데, 나만 해당에러가 뿜뿜하면서 꺼졌다.
 `brew`로 `vim`을 새로 설치하고, `alias vi=vim`으로 해줘도 해결할 수도 있다.
