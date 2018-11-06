@@ -1,5 +1,5 @@
 ---
-title: "Python: GraphQL + SQLAlchemy > Model(Enum) Error 대처"
+title: "Python: 파이썬에서 GraphQL + SQLAlchemy > Model(Enum) Error 대처"
 excerpt_separator: <!--more-->
 categories:
   - Python

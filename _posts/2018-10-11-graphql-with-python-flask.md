@@ -1,5 +1,5 @@
 ---
-title: "Python: GraphQL with Flask"
+title: "Python: 파이썬에서 그래프QL사용해보기. (GraphQL with Flask)"
 excerpt_separator: <!--more-->
 categories:
   - Python
