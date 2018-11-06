@@ -1,5 +1,5 @@
 ---
-title: "Python: pyenv를 통한 다양한 파이썬 버전 지정법"
+title: "Python: 파이썬 pyenv를 통한 다양한 파이썬 버전 지정법"
 categories:
   - Python
   - Pyenv

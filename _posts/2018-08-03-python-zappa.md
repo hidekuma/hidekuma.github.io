@@ -1,5 +1,5 @@
 ---
-title: "Python: Zappa로 AWS Lambda에 서버리스 Web 구현하기"
+title: "Python: 파이썬 Zappa로 AWS Lambda에 서버리스 Web 구현하기"
 excerpt_separator: <!--more-->
 image:
   path: /images/post-imgs/zappa-banner.jpeg
