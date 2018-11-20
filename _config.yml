@@ -81,14 +81,26 @@ collections:
   blogs:
     output: true
     permalink: /:collection/:path/
+  algorithms:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
+  # algorithm defaults
+  - scope:
+      path: "_algorithms"
+      type: algorithms
+    values:
+      layout: post
+      comments: true
+      share: true
   # Posts defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
+      comments: true
       share: true
   # Blogs defaults
   - scope:
