@@ -15,7 +15,12 @@ EC2서버를 세팅중인데, pycurl이 설치가 되었는데도 불구하고, 
 export PYCURL_SSL_LIBRARY=openssl
 pip install pycurl --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"
 ```
-3. 보통 이걸로 해결이 되더라. 만약 ubuntu일 경우.
+3. 아직도 안된다면
+```bash
+sudo env ARCHFLAGS="-arch x86_64" easy_install setuptools pycurl==7.19.0
+```
+버전은 최신꺼 확인해서 넣어보면 된다.
+4. 보통 이걸로 해결이 되더라. 만약 ubuntu일 경우.
 ```bash
 sudo apt-get install libcurl4-openssl-dev
 ```
