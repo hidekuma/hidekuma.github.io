@@ -12,6 +12,7 @@ excerpt_separator: <!--more-->
 아직 정확한 에러내용을 AWS측에서 오픈한건 아니나, DNS 장애로 판단이 되었다.
 AWS route53에서 서브도메인을 이용하여 커넥션을 잡는 경우 2차 장애가 있다고하니, AWS 노예들은 조심하도록...
 3시간 이상 장애가 지연되면, 보상해준다고 어디서 들었는데 맞나?
+<!--more-->
 
 ### AWS 리전별 health check
 [AWS service health dashboard](https://status.aws.amazon.com/#AP_block)
