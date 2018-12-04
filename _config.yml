@@ -87,13 +87,13 @@ collections:
 
 defaults:
   # algorithm defaults
-  - scope:
-      path: "_algorithms"
-      type: algorithms
-    values:
-      layout: post
-      comments: true
-      share: true
+  #  - scope:
+  #      path: "_algorithms"
+  #      type: algorithms
+  #    values:
+  #      layout: post
+  #      comments: true
+  #      share: true
   # Posts defaults
   - scope:
       path: "_posts"
@@ -103,13 +103,13 @@ defaults:
       comments: true
       share: true
   # Blogs defaults
-  - scope:
-      path: "_blogs"
-      type: blogs
-    values:
-      layout: post
-      comments: true
-      share: true
+  #  - scope:
+  #      path: "_blogs"
+  #      type: blogs
+  #    values:
+  #      layout: post
+  #      comments: true
+  #      share: true
 
 # Site Author
 author:

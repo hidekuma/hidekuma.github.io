@@ -6,10 +6,10 @@
 #  url: /
 - title: Posts
   url: /posts/
-- title: Algorithms
-  url: /algorithms/
-- title: Blogs
-  url: /blogs/
+  #- title: Algorithms
+  #  url: /algorithms/
+  #- title: Blogs
+  #  url: /blogs/
 - title: Categories
   url: /categories/
 #- title: Tags
