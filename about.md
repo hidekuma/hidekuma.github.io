@@ -16,7 +16,7 @@ collection: about
 ## Skills
 ### Frontend
 Skills
-: HTML, CSS, JavaScript, JQuery 
+: HTML, CSS, JavaScript, JQuery, Webpack
 
 ### Backend 
 
@@ -26,11 +26,8 @@ Languages
 Databases
 : MySQL, MongoDB, Redis
 
-Frameworks
-: Python(Flask, zappa, chalice), PHP(Phalcon), Java(Spring)
-
 Etc
-: AWS(EC2, Auto Scaling, Load Balancer, Lambda, Cloud Front, Route53, RDS, APIGateway, S3)
+: AWS, Docker, Jenkins
 
 ---
 ## Timeline
