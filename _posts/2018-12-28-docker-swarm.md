@@ -150,7 +150,7 @@ services:
         retries: 3
         start_period: 40s
 ```
-여기서 중요한 것은, docker-compose 에서는 적용되던 container_name과 sysctls 인자는 swarm에서 이용할 수 없다. 따라서, connection수를 늘리려고 하면 container를 복수개 띄워주면 된다. 
+여기서 중요한 것은, docker-compose 에서는 적용되던 container_name과 sysctls 인자는 swarm에서 이용할 수 없다. 따라서, **<U>connection수를 늘리려고 하면 container를 복수개 띄워주면 된다.</U>**
 - `stack`을 이용한 서비스를 생성할 경우, 서비스 명은 나의 경우 swam_api로 생성된다.(1번 `<service_name>`이 프리픽스된다.)
 - `healthcheck`를 통해, 각 컨테이너의 상태를 체크해줘야 다음에 말하는 Rolling Update가 문제없이 적용된다.
 - `replicas: 10`을 통해 container를 10개 복제하였다.
