@@ -78,7 +78,7 @@ ID        HOSTNAME     STATUS    AVAILABILITY    MANAGER STATUS    ENGINE VERSIO
 xxxxx *   server-01     Ready     Active          Leader            18.09.0
 ```
 
-**토큰을 발급 받으면?** <br/> command를 리턴해주는데 노드로 추가할 서버에 가서 해당 커맨드를 복붙해주면 된다.
+**토큰을 발급 받으면?** <br/> command를 리턴해주는데 노드로 추가할 서버에 가서 해당 커맨드를 복붙해주면 된다. 또한 join이 실패할 경우에는, [다음 포스트](https://hidekuma.github.io/docker/swarm/docker-swarm-fail-join-node-as-worker/)를 참고해보면 도움이 될 수 있다.
 {: .notice--info}
 
 ---
@@ -124,8 +124,8 @@ xxxxx *   server-01     Ready     Active          Leader            18.09.0
 
 2. stack update
   ```bash
-  $ docker stack up -c ./docker-compose.yml --with-registry-auth swarm
-  $ docker stack up -c <docker-compose.yml path> --with-registry-auth <service_name>
+  $ docker stack deploy/up -c ./docker-compose.yml --with-registry-auth swarm
+  $ docker stack deploy/up -c <docker-compose.yml path> --with-registry-auth <service_name>
   ```
 3. docker-compose.yml 예시
 ```yml
@@ -154,7 +154,8 @@ services:
 - `stack`을 이용한 서비스를 생성할 경우, 서비스 명은 나의 경우 swam_api로 생성된다.(1번 `<service_name>`이 프리픽스된다.)
 - `healthcheck`를 통해, 각 컨테이너의 상태를 체크해줘야 다음에 말하는 Rolling Update가 문제없이 적용된다.
 - `replicas: 10`을 통해 container를 10개 복제하였다.
-- 서비스를 새롭게 업데이트 할 때, 자동으로 컨테이너별로 순차적업데이트를 진행한다.(도커 네트워크에서 컨테이너에 포워딩을 해줄 때, healthy한 컨테이너에만 포워딩을 해준다. 즉 무중단배포를 의미한다.)
+- 서비스를 새롭게 업데이트 할 때, 자동으로 컨테이너별로 순차적업데이트를 진행한다.(도커 네트워크에서 컨테이너에 포워딩을 해줄 때, healthy한 컨테이너에만 포워딩을 해준다.)
+- 즉 배포를 다운타임이 없이 진행할 수 있다. 하지만 모든 컨테이너에 배포되기까지, 배포 전/후 버전이 공존하는 상태가 된다.
 
 **테스트결과**<br/>worker node에서는 sysctls인자가 먹는데, 커맨드라인을 입력한 manager node에서만 안먹는다. 도커에서 아직 지원하지 않는다고...
 {: .notice--success}
