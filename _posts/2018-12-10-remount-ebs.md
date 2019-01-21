@@ -1,5 +1,5 @@
 ---
-title: "Linux: Ubuntu16.04: EC2: cannot create directory 'test': Read-only file system"
+title: "Linux: Ubuntu16.04: EC2: 어느날 갑자기 Read-only file system 으로 변해버렸을때"
 excerpt_separator: <!--more-->
 categories:
   - EC2
@@ -43,17 +43,20 @@ $ cat /proc/mounts
 
 3. 리마운팅
 ```bash
+$ sudo umount /dev/nvme0n1p1
+$ sudo e2fsck /dev/nvme0n1p1
 $ sudo mount -o remount, rw /
 $ cat /proc/mounts
 /dev/nvme0n1p1 / ext4 rw,relatime,discard,data=ordered 0 0
 ```
-`rw`로 변경되었다. 정상적으로 디렉토리도 생성된다. 구글링에 의하면, 가끔 디스크유틸이 튀거나 오류를 발생할 때 권한이 `ro`로 바뀐다고 하는데, 영 찝찝하고 속이 시원치 않다. 더 알게되면 추가적으로 업데이트하겠다.
+`rw`로 변경되었다. 정상적으로 디렉토리도 생성된다. 구글링에 의하면, 가끔 디스크유틸이 튀거나 오류를 발생할 때 권한이 `ro`로 바뀐다고 한다.
+- umount
+: 체크 할 파티션을 umount한다(필수). 파티션 손실 가능성을 최소화하기위함.
+- e2fsck
+: 리눅스 파일시스템 체크/복구 툴(inodes, blocks, sizes, directories, links, file counts)
 
 4. 정상화
 ![image-center]({{ '/images/post-imgs/remount-error-solved.png' | absolute_url }}){: .align-center}
 
 도대체 12/09 무슨일이 있었던거지...
 그리고 또 한가지, SSH접속을 끊고 재접속을 하려고하니, 접속이 안되었다. AWS 콘솔에서 해당 EC2를 리부팅해주고나서야 SSH접속이되고 정상화되었다.
-이것 또한, 무언가의 버그임에 틀림없다. 누가 속시원하게 설명해줄 사람...
-
-
