@@ -28,123 +28,11 @@ tags:
 2. `zappa` 설치.
 ```bash
 (zappa-test) $ pip install zappa
-Collecting zappa
-Collecting base58==1.0.0 (from zappa)
-Collecting python-slugify==1.2.4 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/9f/77/ab7134b731d0e831cf82861c1ab0bb318e80c41155fa9da18958f9d96057/python_slugify-1.2.4-py2.py3-none-any.whl
-Collecting six>=1.11.0 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
-Collecting PyYAML==3.12 (from zappa)
-Collecting tqdm==4.19.1 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/c0/d3/7f930cbfcafae3836be39dd3ed9b77e5bb177bdcf587a80b6cd1c7b85e74/tqdm-4.19.1-py2.py3-none-any.whl
-Collecting requests>=2.10.0 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl
-Collecting hjson==3.0.1 (from zappa)
-Collecting wsgi-request-logger==0.4.6 (from zappa)
-Collecting botocore>=1.7.19 (from zappa)
-  Downloading https://files.pythonhosted.org/packages/38/8e/014195a281c82b952e026f7d741d558fab18fd1404becb72407e165c614e/botocore-1.12.18-py2.py3-none-any.whl (4.7MB)
-    100% |████████████████████████████████| 4.7MB 3.2MB/s
-Collecting lambda-packages==0.20.0 (from zappa)
-Collecting jmespath==0.9.3 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/b7/31/05c8d001f7f87f0f07289a5fc0fc3832e9a57f2dbd4d3b0fee70e0d51365/jmespath-0.9.3-py2.py3-none-any.whl
-Collecting python-dateutil<2.7.0,>=2.6.1 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl
-Collecting kappa==0.6.0 (from zappa)
-Collecting argcomplete==1.9.3 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/0d/f2/058910b2c732092175875820177dae9d390e71a5f30a9895f92e6a6ca466/argcomplete-1.9.3-py2.py3-none-any.whl
-Collecting toml>=0.9.4 (from zappa)
-  Downloading https://files.pythonhosted.org/packages/a2/12/ced7105d2de62fa7c8fb5fce92cc4ce66b57c95fb875e9318dba7f8c5db0/toml-0.10.0-py2.py3-none-any.whl
-Collecting boto3>=1.4.7 (from zappa)
-  Downloading https://files.pythonhosted.org/packages/1e/ab/9694da3ac1ee3e7f8a8c7d45d8135dad49dd01bdb67e8951c628a8ccc20d/boto3-1.9.18-py2.py3-none-any.whl (128kB)
-    100% |████████████████████████████████| 133kB 10.7MB/s
-Collecting troposphere>=1.9.0 (from zappa)
-Collecting durationpy==0.5 (from zappa)
-Collecting pip<=10.1.0,>=9.0.1 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/0f/74/ecd13431bcc456ed390b44c8a6e917c1820365cbebcb6a8974d1cd045ab4/pip-10.0.1-py2.py3-none-any.whl
-Collecting Werkzeug>=0.14 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl
-Collecting docutils>=0.12 (from zappa)
-  Using cached https://files.pythonhosted.org/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docutils-0.14-py3-none-any.whl
-Requirement already satisfied: wheel>=0.30.0 in /Users/hideo/.virtualenvs/zappa-test/lib/python3.6/site-packages (from zappa) (0.32.1)
-Collecting future==0.16.0 (from zappa)
-Collecting Unidecode>=0.04.16 (from python-slugify==1.2.4->zappa)
-  Using cached https://files.pythonhosted.org/packages/59/ef/67085e30e8bbcdd76e2f0a4ad8151c13a2c5bce77c85f8cad6e1f16fb141/Unidecode-1.0.22-py2.py3-none-any.whl
-Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.10.0->zappa)
-  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
-Collecting certifi>=2017.4.17 (from requests>=2.10.0->zappa)
-  Using cached https://files.pythonhosted.org/packages/df/f7/04fee6ac349e915b82171f8e23cee63644d83663b34c539f7a09aed18f9e/certifi-2018.8.24-py2.py3-none-any.whl
-Collecting idna<2.8,>=2.5 (from requests>=2.10.0->zappa)
-  Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
-Collecting urllib3<1.24,>=1.21.1 (from requests>=2.10.0->zappa)
-  Using cached https://files.pythonhosted.org/packages/bd/c9/6fdd990019071a4a32a5e7cb78a1d92c53851ef4f56f62a3486e6a7d8ffb/urllib3-1.23-py2.py3-none-any.whl
-Collecting click>=5.1 (from kappa==0.6.0->zappa)
-  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
-Collecting placebo>=0.8.1 (from kappa==0.6.0->zappa)
-Collecting s3transfer<0.2.0,>=0.1.10 (from boto3>=1.4.7->zappa)
-  Using cached https://files.pythonhosted.org/packages/d7/14/2a0004d487464d120c9fb85313a75cd3d71a7506955be458eebfe19a6b1d/s3transfer-0.1.13-py2.py3-none-any.whl
-Collecting cfn-flip>=1.0.2 (from troposphere>=1.9.0->zappa)
-Installing collected packages: base58, Unidecode, python-slugify, six, PyYAML, tqdm, chardet, certifi, idna, urllib3, requests, hjson, wsgi-request-logger, jmespath, docutils, python-dateutil, botocore, lambda-packages, click, placebo, s3transfer, boto3, kappa, argcomplete, toml, cfn-flip, troposphere, durationpy, pip, Werkzeug, future, zappa
-  Found existing installation: pip 18.1
-    Uninstalling pip-18.1:
-      Successfully uninstalled pip-18.1
-Successfully installed PyYAML-3.12 Unidecode-1.0.22 Werkzeug-0.14.1 argcomplete-1.9.3 base58-1.0.0 boto3-1.9.18 botocore-1.12.18 certifi-2018.8.24 cfn-flip-1.0.3 chardet-3.0.4 click-7.0 docutils-0.14 durationpy-0.5 future-0.16.0 hjson-3.0.1 idna-2.7 jmespath-0.9.3 kappa-0.6.0 lambda-packages-0.20.0 pip-10.0.1 placebo-0.8.2 python-dateutil-2.6.1 python-slugify-1.2.4 requests-2.19.1 s3transfer-0.1.13 six-1.11.0 toml-0.10.0 tqdm-4.19.1 troposphere-2.3.3 urllib3-1.23 wsgi-request-logger-0.4.6 zappa-0.46.2
 ```
 
 3. `zappa init` 한다.
 ```bash
 (zappa-test) $ zappa init
-███████╗ █████╗ ██████╗ ██████╗  █████╗
-╚══███╔╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗
-  ███╔╝ ███████║██████╔╝██████╔╝███████║
- ███╔╝  ██╔══██║██╔═══╝ ██╔═══╝ ██╔══██║
-███████╗██║  ██║██║     ██║     ██║  ██║
-╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚═╝  ╚═╝
-Welcome to Zappa!
-\
-Zappa is a system for running server-less Python web applications on AWS Lambda and AWS API Gateway.
-This `init` command will help you create and configure your new Zappa deployment.
-Let's get started!
-Your Zappa configuration can support multiple production stages, like 'dev', 'staging', and 'production'.
-\
-What do you want to call this environment (default 'dev'): dev
-AWS Lambda and API Gateway are only available in certain regions. Let's check to make sure you have a profile set up in one that will work.
-Okay, using profile default!
-Your Zappa deployments will need to be uploaded to a private S3 bucket.
-If you don't have a bucket yet, we'll create one for you too.
-\
-What do you want to call your bucket? (default 'zappa-2nbfdlibr'): zappa-test
-\
-What's the modular path to your app's function?
-This will likely be something like 'your_module.app'.
-\
-Where is your app's function?: app.app
-You can optionally deploy to all available regions in order to provide fast global service.
-If you are using Zappa for the first time, you probably don't want to do this!
-\
-Would you like to deploy this application globally? (default 'n') [y/n/(p)rimary]: n
-Okay, here's your zappa_settings.json:
-{
-    "dev": {
-        "app_function": "app.app",
-        "aws_region": "ap-northeast-2",
-        "profile_name": "default",
-        "project_name": "zappa-test",
-        "runtime": "python3.6",
-        "s3_bucket": "zappa-test"
-    }
-}
-\
-Does this look okay? (default 'y') [y/n]: y
-\
-Done! Now you can deploy your Zappa application by executing:
-        $ zappa deploy dev
-After that, you can update your application code with:
-        $ zappa update dev
-\
-To learn more, check out our project page on GitHub here: https://github.com/Miserlou/Zappa
-and stop by our Slack channel here: https://slack.zappa.io
-Enjoy!,
- ~ Team Zappa!
 ```
 `zappa init` 커맨드를 치면, 몇 가지 질의를 해온다. 
 - What do you want to call this environment (default 'dev')
@@ -207,16 +95,6 @@ if __name__ == '__main__':
 6. `Flask` 설치.
 ```bash
 (zappa-test) $ pip install flask
-Collecting flask
-  Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
-Requirement already satisfied: Werkzeug>=0.14 in /Users/hideo/.virtualenvs/zappa-test/lib/python3.6/site-packages (from flask) (0.14.1)
-Requirement already satisfied: click>=5.1 in /Users/hideo/.virtualenvs/zappa-test/lib/python3.6/site-packages (from flask) (7.0)
-Collecting itsdangerous>=0.24 (from flask)
-Collecting Jinja2>=2.10 (from flask)
-  Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
-Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->flask)
-Installing collected packages: itsdangerous, MarkupSafe, Jinja2, flask
-Successfully installed Jinja2-2.10 MarkupSafe-1.0 flask-1.0.2 itsdangerous-0.24
 ```
 
 7. 실행시켜보자.
