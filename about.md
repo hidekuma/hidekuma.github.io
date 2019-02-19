@@ -26,8 +26,11 @@ Languages
 Databases
 : MySQL, MongoDB, Redis
 
-Etc
-: AWS, Docker, Jenkins
+DevOps
+: Docker, Jenkins
+
+Cloud
+: AWS, GCP, NCP
 
 ---
 ## Timeline
