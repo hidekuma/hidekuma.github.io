@@ -163,3 +163,4 @@ AWS Lambda를 이용하지 않고, 서버리스 API/Database를 만드는 법을
 
 
 완성하였다. 굳이 AWS Lambda를 쓰지 않아도 DynamoDB CRUD API를 만들 수 있었다.
+배포는 Deploy API를 통해서 진행하면 된다.
