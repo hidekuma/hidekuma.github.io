@@ -1,5 +1,5 @@
 ---
-title: "AWS DynamoDB + API Gateway: API Gateway를 사용해 Serverless RESTful API 만들기"
+title: "AWS: DynamoDB + API Gateway를 사용해 Serverless RESTful API 만들기"
 excerpt_separator: <!--more-->
 categories:
   - DynamoDB
