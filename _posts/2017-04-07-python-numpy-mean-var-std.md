@@ -29,5 +29,3 @@ numpy.var(arr) # 분산
 numpy.std(arr) # 표준편차
 # 0.81649658092772603
 ```
-
-<script src="https://asciinema.org/a/0og7WPrjcQlwp77viczQXTpK8.js" id="asciicast-0og7WPrjcQlwp77viczQXTpK8" async></script>
