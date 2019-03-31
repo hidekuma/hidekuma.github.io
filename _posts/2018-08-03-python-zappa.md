@@ -48,7 +48,6 @@ tags:
 (zappa-test) $ tree
 .
 └── zappa_settings.json
-\
 0 directories, 1 file
 ```
 ```bash
@@ -70,13 +69,10 @@ tags:
 #app.py
 import sys
 from flask import Flask, redirect, request, jsonify, url_for, render_template
-\
 app = Flask(__name__, static_url_path='')
-\
 @app.route('/', methods=['GET'])
 def index():
 		return 'hello zappa!'
-\
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         app.debug = True
