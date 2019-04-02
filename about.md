@@ -34,8 +34,11 @@ Cloud
 
 ---
 ## Timeline
+(주) 카페24 (2019.04 ~ )
+: EC Software Developer
+
 (주) 유니드컴즈 (2016.01 ~ 2019.03)
-: Backend팀 선임
+: Backend Engineer
 
 한국 디지털기업협회 (2015.07 ~ 2015.12)
 : UI/UX기반 웹퍼블리셔
