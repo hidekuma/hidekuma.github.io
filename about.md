@@ -6,17 +6,16 @@ collection: about
 ---
 
 ## hidekuma (히데쿠마)
-개발을 좋아합니다. 새로운 기술에도 관심이 많습니다. 
-대학교 때, Java나 C언어 수업에는 정말 흥미가 없어서 개발자가 될 거라곤 꿈에도 생각못했으나, 졸업 후 희한하게  코드로 구현되는 `UI/UX`에 빠져 잠시 퍼블리싱을 경험했습니다.
-그 후 백엔드가 적성이 맞아,  어쩌다 보니 본격적인 시작은 프론트로 하여, 백엔드로 역행하는 개발자가 되었습니다.
+Only the best is good enough.
 
-***Email: [d.hidekuma@gmail.com](mailto:d.hidekuma.gmail.com)***
+***Email: [d.hidekuma@gmail.com](mailto:d.hidekuma.gmail.com)***<br/>
+***Wiki: [H!DIKI](https://hidiki.github.io/)***
 
 ---
 ## Skills
 ### Frontend
 Skills
-: HTML, CSS, JavaScript, JQuery, Webpack
+: HTML5, CSS3, XML, JavaScript, jQuery, React.js, Webpack3
 
 ### Backend 
 
@@ -24,13 +23,16 @@ Languages
 : Python, PHP, Java
 
 Databases
-: MySQL, MongoDB, Redis
+: MySQL, MongoDB, Redis, DynamoDB
 
 DevOps
-: Docker, Jenkins
+: Docker, Docker Swarm, Jenkins, Git
 
 Cloud
 : AWS, GCP, NCP
+
+More
+: [StackShare](https://stackshare.io/hidekuma/stack)
 
 ---
 ## Timeline
@@ -41,7 +43,7 @@ Cloud
 : Backend Engineer
 
 한국 디지털기업협회 (2015.07 ~ 2015.12)
-: UI/UX기반 웹퍼블리셔
+: UI/UX기반 웹퍼블리셔 과정
 
 EZ 디자인학원 (2015.05 ~ 2015.07)
 : 웹 디자이너 전문가과정
@@ -49,9 +51,9 @@ EZ 디자인학원 (2015.05 ~ 2015.07)
 국방의 의무 (2013.04 ~ 2015.01)
 : 총검술 
 
-동경도시대학교 - Tokyo City University (2009.04 ~ 2013.03)
-: 정보미디어학과
-: 미디어 커뮤니케이션 전공
+Tokyo City University (2009.04 ~ 2013.03)
+: Media environment and information studies
+: Information ecology studies
 
 ---
 ## Language
