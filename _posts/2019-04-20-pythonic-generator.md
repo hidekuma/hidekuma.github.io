@@ -1,12 +1,16 @@
 ---
-title: "Pythonic: Day 2. Generator & list comprehension"
+title: "Pythonic: Day 2. Generator and list comprehension"
 excerpt_separator: <!--more-->
 categories:
-  - Pythonic 
-  - Pep8 
+  - Pythonic
+  - Generator
+  - List
+  - Comprehenshion
 tags: 
   - pythonic
-  - pep8
+  - generator
+  - list
+  - comprehenshion
 ---
 # * 리스트 컴프리헨션과 제너레이터
 ## 리스트 컴프리헨션
