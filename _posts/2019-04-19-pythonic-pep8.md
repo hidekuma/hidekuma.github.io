@@ -9,7 +9,7 @@ tags:
   - pep8
 ---
 # * PEP 8 스타일 가이드
-> [파이썬 개선 제안서(Python Enhancement Proposal) #8](https://www.python.org/dev/peps/pep-0008/)
+[파이썬 개선 제안서(Python Enhancement Proposal) #8](https://www.python.org/dev/peps/pep-0008/)
 
 간단하게 파이썬 코드 스타일 가이드라고 생각하면 된다.
 
