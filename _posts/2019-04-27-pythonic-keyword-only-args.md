@@ -3,7 +3,7 @@ title: "Pythonic: Day 7. keyword only args"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - kwargs
+  - Kwargs
 tags: 
   - pythonic
   - kwargs

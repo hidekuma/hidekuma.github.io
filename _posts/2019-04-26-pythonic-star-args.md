@@ -1,9 +1,9 @@
 ---
-title: "Pythonic: Day 6. *args"
+title: "Pythonic: Day 6. star args"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - args
+  - Args
 tags: 
   - pythonic
   - args
