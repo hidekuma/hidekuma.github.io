@@ -3,8 +3,6 @@ title: "Pythonic: Day 3. Dont't return None, raise error!"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - None
-  - raise 
 tags: 
   - pythonic
   - none 

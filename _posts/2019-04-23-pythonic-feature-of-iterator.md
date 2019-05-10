@@ -3,7 +3,6 @@ title: "Pythonic: Day 5. feature of iterator"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Iterator 
 tags: 
   - pythonic
   - iterator 

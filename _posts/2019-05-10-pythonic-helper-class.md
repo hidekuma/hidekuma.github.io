@@ -3,7 +3,6 @@ title: "Pythonic: Day 8. helper class"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Class
 tags: 
   - pythonic
   - class 

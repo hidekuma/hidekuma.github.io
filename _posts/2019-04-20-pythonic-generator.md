@@ -3,9 +3,6 @@ title: "Pythonic: Day 2. Generator and list comprehension"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Generator
-  - List
-  - Comprehenshion
 tags: 
   - pythonic
   - generator

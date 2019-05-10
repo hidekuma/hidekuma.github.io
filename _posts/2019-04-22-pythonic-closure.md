@@ -3,7 +3,6 @@ title: "Pythonic: Day 4. Closure"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Closure 
 tags: 
   - pythonic
   - closure 

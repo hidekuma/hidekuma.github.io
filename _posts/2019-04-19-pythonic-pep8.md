@@ -3,7 +3,6 @@ title: "Pythonic: Day 1. PEP8 style guide"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Pep8
 tags:
   - pythonic
   - pep8

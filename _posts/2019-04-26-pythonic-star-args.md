@@ -3,7 +3,6 @@ title: "Pythonic: Day 6. star args"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
-  - Args
 tags: 
   - pythonic
   - args
