@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 10.private field" 
+title: "Pythonic: Day 10. private field" 
 excerpt_separator: <!--more-->
 categories:
   - Pythonic 
@@ -32,6 +32,7 @@ print(test.__dict__)
 
 따라서 우리가 비공개 속성에 직접 접근할 때 보는 에러는 단순히 컴파일러가 변경한 속성의 이름을 찾지 못해 발생한다. 이 규칙을 이해하면 사실 우리는 마음만 먹으면 언제든지 객체내부를 조작하고, 비공개 속성에 접근할 수 있다.
 
+<!--more-->
 ### 보호 속성 /  비공개 속성
 파이썬에선 보호 속성과 비공개 속성을 다음과 같은 규칙(**속성앞에 언더스코어 개수**)으로 정의한다.
 - `_protected_value` = 보호
