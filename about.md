@@ -37,7 +37,7 @@ More
 ---
 ## Timeline
 Cafe24 (2019.04 ~ )
-: EC Software Developer
+: Software Developer
 
 Uneedcomms.inc (2016.01 ~ 2019.03)
 : Backend Engineer

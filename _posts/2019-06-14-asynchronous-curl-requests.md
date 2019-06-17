@@ -1,5 +1,5 @@
 ---
-title: "Python: Asynchronous cURL Requests: AsycURL"
+title: "Python: Asynchronous cURL Requests: AsyncURL"
 excerpt_separator: <!--more-->
 categories:
   - Python
