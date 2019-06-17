@@ -15,18 +15,18 @@ Only the best is good enough.
 ## Skills
 ### Frontend
 Skills
-: HTML5, CSS3, XML, JavaScript, jQuery, React.js, Webpack3
+: HTML, CSS, XML, JavaScript, jQuery, React.js, Webpack
 
 ### Backend 
 
 Languages
-: Python, PHP, Java
+: Python, Java, PHP
 
 Databases
-: MySQL, MongoDB, Redis, DynamoDB
+: MySQL, PosgreSQL, MongoDB, Redis, DynamoDB
 
 DevOps
-: Docker, Docker Swarm, Jenkins, Git
+: Docker, Docker Swarm, Jenkins, Git, Travis CI
 
 Cloud
 : AWS, GCP, NCP
@@ -36,19 +36,19 @@ More
 
 ---
 ## Timeline
-(주) 카페24 (2019.04 ~ )
+Cafe24 (2019.04 ~ )
 : EC Software Developer
 
-(주) 유니드컴즈 (2016.01 ~ 2019.03)
+Uneedcomms.inc (2016.01 ~ 2019.03)
 : Backend Engineer
 
-한국 디지털기업협회 (2015.07 ~ 2015.12)
+Korea Digital Enterprise Association (2015.07 ~ 2015.12)
 : UI/UX기반 웹퍼블리셔 과정
 
-EZ 디자인학원 (2015.05 ~ 2015.07)
-: 웹 디자이너 전문가과정
+EZ Design (2015.05 ~ 2015.07)
+: 웹 디자이너 전문가 과정
 
-국방의 의무 (2013.04 ~ 2015.01)
+ROKA (2013.04 ~ 2015.01)
 : 총검술 
 
 Tokyo City University (2009.04 ~ 2013.03)
@@ -57,6 +57,6 @@ Tokyo City University (2009.04 ~ 2013.03)
 
 ---
 ## Language
-일본어(비지니스회화)
+Japanese
 : JLPT N1 176/180
 : JPT 955/990
