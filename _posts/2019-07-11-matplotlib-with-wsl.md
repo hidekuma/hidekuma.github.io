@@ -1,5 +1,5 @@
 ---
-title: "Python: WSL(Window Subsystem for Linux)에 matplotlib show 적용되게 만들기
+title: "Python: WSL(Window Subsystem for Linux)에 matplotlib show 적용되게 만들기"
 excerpt_separator: <!--more-->
 categories:
   - Python 
