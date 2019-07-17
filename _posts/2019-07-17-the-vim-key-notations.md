@@ -11,6 +11,7 @@ tags:
 
 # Vim의 키 노테이션 모음
 notation           | meaning                                                                        | equivalent   | decimal             | value(s)
+:-:|:-:|:-:|:-:
 <Nul>              | zero                                                                           | CTRL-@       | 0 (stored as 10)    | <Nul>
 <BS>               | backspace                                                                      | CTRL-H       | 8                   | backspace
 <Tab>              | tab                                                                            | CTRL-I       | 9                   | tab Tab
