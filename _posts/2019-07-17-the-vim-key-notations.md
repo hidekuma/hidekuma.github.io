@@ -10,6 +10,8 @@ tags:
 ---
 
 # Vim의 키 노테이션 모음
+Vim의 키맵을 설정할 때 사용되는 노테이션을 공유하고자 합니다.
+<!--more-->
 
 | notation           | meaning                                                                              | equivalent   | decimal               | value(s)             |
 | :--------:         | ---------                                                                            | ------------ | ---------             | ----------           |
@@ -67,4 +69,3 @@ tags:
 | `<D-...>`          | command-key (Macintosh only)                                                         |              | `<D-`                 |                      |
 | `<t_xx>`           | key with "xx" entry in termcap                                                       |              |                       |                      |
 
-<!--more-->
