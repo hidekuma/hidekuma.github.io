@@ -15,6 +15,7 @@ Vim의 키맵을 설정할 때 사용되는 노테이션을 공유하고자 합�
 
 | notation           | meaning                                                                              | equivalent   | decimal               | value(s)             |
 | :--------:         | ---------                                                                            | ------------ | ---------             | ----------           |
+| `<Leader>`         | keypad \                                                                             | `\`          | 92                    |                      |
 | `<Nul>`            | zero                                                                                 | `CTRL-@`     | 0 (stored as 10)      | `<Nul>`              |
 | `<BS>`             | backspace                                                                            | `CTRL-H`     | 8                     | backspace            |
 | `<Tab>`            | tab                                                                                  | `CTRL-I`     | 9                     | tab Tab              |
