@@ -16,7 +16,6 @@ tags:
 
 ## FYI - "For Your Information"
 참고로 라는 뜻. 웹상에서 마음에 드는 기사 나 뉴스가 보일때 , FYI라는 말과 함께 링크 URL을 보낼 때 등에 자주 사용된다.
-<!--more-->
 
 ## GOTCHA - "I've Got You"
 i got it, Got it 과 같은 뜻으로 사용되며, 해냈다! 혹은 알았다로 해석.
@@ -26,6 +25,7 @@ i got it, Got it 과 같은 뜻으로 사용되며, 해냈다! 혹은 알았다�
 
 ## LGTM - "Looks Good To Me"
 okay, 개발 한 시스템과 코드 리뷰를 부탁하거나, 자료의 요약을 확인 갔을 때 특별한 문제가없는 경우에 사용함.
+<!--more-->
 
 ## SSIA - "Subject Says It All"
 타이틀이 전부 말해주고 있다. 타이틀만 봐도 이해할 수 있다란 뜻. 이메일 등에서 "Subject and Screenshot Says It All(SSSIA)"로도 쓰임.
