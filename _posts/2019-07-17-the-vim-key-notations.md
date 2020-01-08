@@ -1,5 +1,5 @@
 ---
-title: "Vim: 키 노테이션 알아보기"
+title: "Vim: key notations"
 excerpt_separator: <!--more-->
 categories:
   - Vim 

@@ -1,5 +1,5 @@
 ---
-title: "Vim: on WSL(Window Subsystem For Linux) 에서 vim 복사기능 clipboard에 싱크하기"
+title: "Vim: sync clipoard to WSL"
 excerpt_separator: <!--more-->
 categories:
   - Vim

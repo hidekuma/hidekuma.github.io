@@ -1,8 +1,5 @@
 ---
 title: "Python: 파이썬 Chalice를 이용한 서버리스 이미지 호스팅 제작기"
-image:
-  path: /images/post-imgs/chalice.jpg
-  thumbnail: /images/post-imgs/chalice.jpg
 categories:
   - Python
   - Chalice

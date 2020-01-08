@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 2. Generator and list comprehension"
+title: "Pythonic: Day 2. generator and list comprehension"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

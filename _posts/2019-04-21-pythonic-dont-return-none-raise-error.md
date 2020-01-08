@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 3. Dont't return None, raise error!"
+title: "Pythonic: Day 3. dont't return None, raise error!"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

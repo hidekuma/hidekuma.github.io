@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 4. Closure"
+title: "Pythonic: Day 4. closure"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

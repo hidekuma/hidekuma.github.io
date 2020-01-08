@@ -1,132 +1,60 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: hidekuma.github.io
+description: Be awe$ome
+author: Hidekuma
+github: https://github.com/hidekuma
+about: I'm a developer who likes python.
+disqus_shortname: hidekuma
+google_analytics: UA-126032708-1
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-#theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
-locale: "ko-KR"
-title: "Hidekuma"
-description: "Be awe$ome"
-baseurl: "/" # the subpath of your site, e.g. "/blog"
-url: "https://hidekuma.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/logo.jpeg" # path of site logo, e.g. "/images/logo.png"
-date_format: "%Y-%m-%d"
-read_time: true # reading time estimates, e.g. true
-words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: "UA-126032708-1" # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus:
-  shortname: "hidekuma" # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+enableTags: true
+tagarray: []
 
-# Liquid
-liquid:
-  error_mode: strict
-
-# Build settings
 permalink: /:categories/:title/
-markdown: kramdown
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/%ED%9A%8C%EC%9B%85-%EC%A0%95-367841180"
+    #- icon: fa-stack-exchange
+      #link: "#"
+    - icon: fa-github
+      link: "https://github.com/hidekuma"
+
+#share:
+  #twitter_username: github.io
+  #fb_appid: 1749788565247320
+
+urls:
+    - text: About
+      url: /about/
+    #- text: Projects
+      #url: /projects/
+    #- text: Feed
+      #url: /feed.xml
+
 feed:
-  path: atom.xml
+  path: feed.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
-paginate_path: /page:num/
-
-# Search
-search_full_content: false # can have performance implications for large sites
-
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+url: "https://hidekuma.github.io"
+baseurl: ""
+paginate: 50
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
 plugins:
+  - jekyll-paginate
+  - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
 
-
-# Collections
-collections:
-  blogs:
-    output: true
-    permalink: /:collection/:path/
-  algorithms:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  # algorithm defaults
-  #  - scope:
-  #      path: "_algorithms"
-  #      type: algorithms
-  #    values:
-  #      layout: post
-  #      comments: true
-  #      share: true
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Blogs defaults
-  #  - scope:
-  #      path: "_blogs"
-  #      type: blogs
-  #    values:
-  #      layout: post
-  #      comments: true
-  #      share: true
-
-# Site Author
-author:
-  name: hidekuma (Hoiwoong Jung)
-  picture: /images/hidekuma-img.jpeg
-  email: d.hidekuma@gmail.com
-  twitter:
-  links:
-    - title: Github
-      url: https://github.io/hidekuma
-      icon: fab fa-github-square
-
-# Footer Links
-footer_links:
-  #- title: Feed
-  #  url: atom.xml
-  #  icon: fas fa-rss-square
-  - title: Github
-    url: https://github.com/hidekuma
-    icon: fab fa-github-square
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']

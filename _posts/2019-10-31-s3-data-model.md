@@ -1,5 +1,5 @@
 ---
-title: "AWS: S3 데이터 모델"
+title: "AWS: s3 data model"
 excerpt_separator: <!--more-->
 categories:
   - AWS

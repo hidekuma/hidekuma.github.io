@@ -1,5 +1,5 @@
 ---
-title: "windows: Python not working in the command line of git bash"
+title: "Windows: python not working in the command line of git bash"
 excerpt_separator: <!--more-->
 categories:
   - Python 
