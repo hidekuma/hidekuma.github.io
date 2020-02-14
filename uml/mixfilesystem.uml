@@ -1,0 +1,44 @@
+
+partition Client {
+    start
+    :request;
+}
+partition CloudFront {
+	
+	partition CacheLayer {
+        if (cache hit) then
+            :Y;
+            stop
+        else
+            :N;
+        	endif
+    }
+}
+
+partition S3origin {
+    if (is exists) then
+	:Y;
+	stop
+	else
+    :N;
+	endif
+}
+
+partition Lambda@Edge {
+	:call IDC;
+	if (is exists in IDC?) then
+    :Y;
+    fork
+    :caching response;
+    fork again
+    :S3 upload (optional);
+    detach
+ endfork
+    stop
+    else
+    :N;
+    :404 Error;
+    end
+	endif
+}
+
