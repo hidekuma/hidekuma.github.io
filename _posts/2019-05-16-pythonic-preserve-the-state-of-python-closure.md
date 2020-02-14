@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 9. preserve the state of python closure"
+title: "Pythonic: 상태보존 클로저"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic 

@@ -1,5 +1,5 @@
 ---
-title: "Windows: installing tmux in git-bash"
+title: "Gitbash: gitbash에서 tmux 사용하기"
 excerpt_separator: <!--more-->
 categories:
   - Windows

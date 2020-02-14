@@ -1,9 +1,9 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: "Noto Sans KR", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
   color: #666;
 }
 hr {
@@ -27,7 +27,7 @@ h1 {
   font-size: 25px;
 }
 h2, h3 {
-  margin-bottom: 5px;
+  margin-bottom: 13px;
 }
 a, a:link, a:active {
   text-decoration: none;

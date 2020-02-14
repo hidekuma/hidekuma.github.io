@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 3. dont't return None, raise error!"
+title: "Pythonic: None을 반환하기보다는, 에러를 일으키자"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

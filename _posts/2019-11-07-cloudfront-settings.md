@@ -1,5 +1,5 @@
 ---
-title: "AWS: cloudfront Settings"
+title: "AWS: cloudfront 셋팅 훑어보기"
 excerpt_separator: <!--more-->
 categories:
   - AWS

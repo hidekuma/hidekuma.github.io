@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 8. helper class"
+title: "Pythonic: 파이썬 헬퍼클래스"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

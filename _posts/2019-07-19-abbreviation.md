@@ -1,5 +1,5 @@
 ---
-title: "Github: frequently used English abbreviations"
+title: "Github: 은근히 많이 쓰는 깃헙약어"
 excerpt_separator: <!--more-->
 categories:
   - Github 

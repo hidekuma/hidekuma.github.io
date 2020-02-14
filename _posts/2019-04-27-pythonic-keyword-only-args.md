@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 7. keyword only args"
+title: "Pythonic: 파이썬의 키워드 전용인수"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

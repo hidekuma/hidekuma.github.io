@@ -1,5 +1,5 @@
 ---
-title: "Python: No module named pycurl / Mac에서 pycurl이 설치가 안되거나, import안될 경우" 
+title: "Python: pycurl이 설치가 안되거나, import안될 경우 (No module named pycurl)" 
 categories:
   - Python
   - Pycurl

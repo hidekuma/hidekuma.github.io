@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 2. generator and list comprehension"
+title: "Pythonic: 리스트 컴프리헨션과 제너레이터 살펴보기"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 1. PEP8 style guide"
+title: "Pythonic: PEP8 스타일 가이드"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic

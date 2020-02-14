@@ -1,5 +1,5 @@
 ---
-title: "Python: 파이썬 가상환경 만들기/ virtualenv + virtualenvWrapper"
+title: "Python: 파이썬 가상환경 만들기 (virtualenv + virtualenvWrapper)"
 categories:
   - Python
   - Virtualenv

@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 11. create custom container"
+title: "Pythonic: 파이썬 커스텀 컨테이너 생성하기"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic 

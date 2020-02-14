@@ -1,5 +1,5 @@
 ---
-title: "JavaScript: Iphone history back issue" 
+title: "JavaScript: Iphone 뒤로가기시 브라우저 새로고침 안되는 경우" 
 categories:
   - JavaScript
   - JQuery

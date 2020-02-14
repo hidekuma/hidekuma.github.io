@@ -1,5 +1,5 @@
 ---
-title: "Vim: sync clipoard to WSL"
+title: "Vim: WSL에서 클립보드에 복사하는 방법"
 excerpt_separator: <!--more-->
 categories:
   - Vim

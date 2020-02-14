@@ -1,5 +1,5 @@
 ---
-title: "Pythonic: Day 4. closure"
+title: "Pythonic: 파이썬의 클로저"
 excerpt_separator: <!--more-->
 categories:
   - Pythonic
