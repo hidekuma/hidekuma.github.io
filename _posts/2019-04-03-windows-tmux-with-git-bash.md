@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Gitbash: gitbash에서 tmux 사용하기"
 excerpt_separator: <!--more-->
 categories:

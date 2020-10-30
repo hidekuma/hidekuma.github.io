@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Docker: 도커파일 제작 시, 기본 팁"
 excerpt_separator: <!--more-->
 categories:

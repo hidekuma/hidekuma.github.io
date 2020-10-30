@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬의 가변 위치 인수"
 excerpt_separator: <!--more-->
 categories:

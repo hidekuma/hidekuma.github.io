@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Kali linux: Mac에서 booting USB만들기"
 excerpt_separator: <!--more-->
 categories:

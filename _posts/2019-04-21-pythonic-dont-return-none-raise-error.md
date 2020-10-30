@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: None을 반환하기보다는, 에러를 일으키자"
 excerpt_separator: <!--more-->
 categories:

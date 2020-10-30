@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pyenv: pyenv 인스톨이 실패할 경우 (No module named 'pyexpat')"
 excerpt_separator: <!--more-->
 categories:

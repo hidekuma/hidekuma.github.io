@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬의 클로저"
 excerpt_separator: <!--more-->
 categories:

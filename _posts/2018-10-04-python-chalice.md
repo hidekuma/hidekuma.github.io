@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: 파이썬 Chalice를 이용한 서버리스 이미지 호스팅 제작기"
 categories:
   - Python

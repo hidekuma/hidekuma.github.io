@@ -1,60 +1,29 @@
-title: hidekuma.github.io
-description: Be awe$ome
-author: Hidekuma
-github: https://github.com/hidekuma
-about: Love Python.
+# Site settings
+title: 히데쿠마 개발블로그
+motto: 히데쿠마 개발블로그
+
+email: d.hidekuma@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  python, python3, opencv, numpy, 표준편차, 파이썬, 가상환경, pyenv, virtualenv, aws, s3, apigateway, chalice, cloudfront, credential, git, docker, swarm, dynamodb, ec2, graphql, gitbash, lambda, pycurl, pythonic, serverless, vim, zappa, pep8
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://hidekuma.github.io"
+github_username:  hidekuma
 disqus_shortname: hidekuma
+
+# Build settings
+markdown: kramdown
+
 google_analytics: UA-126032708-1
 
-enableTags: true
-tagarray: []
-
 permalink: /:categories/:title/
-
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
-
-social:
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/%ED%9A%8C%EC%9B%85-%EC%A0%95-367841180"
-    #- icon: fa-stack-exchange
-      #link: "#"
-    - icon: fa-github
-      link: "https://github.com/hidekuma"
-
-#share:
-  #twitter_username: github.io
-  #fb_appid: 1749788565247320
-
-urls:
-    - text: About
-      url: /about/
-    #- text: Projects
-      #url: /projects/
-    #- text: Feed
-      #url: /feed.xml
 
 feed:
   path: feed.xml
 
-url: "https://hidekuma.github.io"
-baseurl: ""
-paginate: 50
-per_page: 20
+paginate: 5
 paginate_path: "/page/:num/"
-markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']

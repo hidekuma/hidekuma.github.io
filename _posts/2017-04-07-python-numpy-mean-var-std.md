@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: 파이썬으로 표준편차, 평균, 분산 구하기"
 categories:
   - Python

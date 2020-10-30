@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: WSL에서 mataplotlib show 사용세팅"
 excerpt_separator: <!--more-->
 categories:

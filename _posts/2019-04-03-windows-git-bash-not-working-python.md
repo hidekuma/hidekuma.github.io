@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Gitbash: 윈도우 git bash에서 python 커맨드가 묵묵부답일 경우"
 excerpt_separator: <!--more-->
 categories:

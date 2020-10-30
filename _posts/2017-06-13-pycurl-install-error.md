@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: pycurl이 설치가 안되거나, import안될 경우 (No module named pycurl)" 
 categories:
   - Python
@@ -25,4 +26,4 @@ sudo env ARCHFLAGS="-arch x86_64" easy_install setuptools pycurl==7.19.0
 sudo apt-get install libcurl4-openssl-dev
 ```
 
-안된다면... 그냥 `requests`로 갈아타자. 이 좋은걸 냅두고 고생할 필요없다.
+안된다면... 그냥 requests로 갈아타자. 이 좋은걸 냅두고 고생할 필요없다.

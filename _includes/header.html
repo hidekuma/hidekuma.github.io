@@ -1,0 +1,67 @@
+<header class="header">
+	<div class="header-container">
+		<div class="nav">
+			{% if page.path == "index.html" %}
+			<span class="title">
+				<li>
+					<a href="/">전체</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/">전체</a>
+				</li>			
+			{% endif %}
+			{% if page.path == "category.html" %}
+			<span class="title">
+				<li>
+					<a href="/category.html">카테고리</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/category">카테고리</a>
+				</li>			
+			{% endif %}
+			{% if page.path == "archive.html" %}
+			<span class="title">
+				<li>
+					<a href="/archive.html">블로그</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/archive">블로그</a>
+				</li>			
+			{% endif %}
+			{% if page.path == "about.html" %}
+			<span class="title">
+				<li>
+					<a href="/about.html">히읗이응</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/about">히읗이응</a>
+				</li>			
+			{% endif %}
+		</div>
+		<div class="description search" id="js-search">
+			{{ site.motto }}
+			<input type="text" placeholder="  ? 검색하기" class="search__input form-control" id="js-search__input">
+			<ul class="search__results social-links" id="js-search__results"></ul>
+		</div>		
+		<!--ul class="social-links">
+			<li>
+				<a href="https://github.com/{{ site.github_username }}" title="Github">
+					<img width="19px" height="19px" src="/images/github.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="/feed.xml" title="RSS">
+					<img width="19px" height="19px" src="/images/rss.png"/>
+				</a>
+			</li>
+		</ul-->		
+	</div>
+</header>

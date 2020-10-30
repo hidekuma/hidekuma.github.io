@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: 파이썬에서 GraphQL + SQLAlchemy > Model(Enum) Error 대처"
 excerpt_separator: <!--more-->
 categories:

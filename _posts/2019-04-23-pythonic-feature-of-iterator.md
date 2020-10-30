@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 이터레이터 알아보기"
 excerpt_separator: <!--more-->
 categories:

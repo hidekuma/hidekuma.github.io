@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬의 비공개 필드" 
 excerpt_separator: <!--more-->
 categories:

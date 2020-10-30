@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 상태보존 클로저"
 excerpt_separator: <!--more-->
 categories:

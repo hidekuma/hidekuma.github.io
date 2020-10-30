@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Docker swarm: 도커 스웜에서 워커 / 매니저 노드가 조인이 실패할 경우?"
 excerpt_separator: <!--more-->
 categories:

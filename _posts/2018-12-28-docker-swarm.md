@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Docker swarm: 도커 스웜 사용후기 > 복수개의 컨테이너 손쉽게 관리하기"
 excerpt_separator: <!--more-->
 categories:

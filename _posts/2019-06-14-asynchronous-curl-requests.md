@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Python: asynchronous cURL requests: AsyncURL"
 excerpt_separator: <!--more-->
 categories:

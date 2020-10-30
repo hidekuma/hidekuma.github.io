@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: PEP8 스타일 가이드"
 excerpt_separator: <!--more-->
 categories:

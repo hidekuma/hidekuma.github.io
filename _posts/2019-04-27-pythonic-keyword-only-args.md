@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬의 키워드 전용인수"
 excerpt_separator: <!--more-->
 categories:

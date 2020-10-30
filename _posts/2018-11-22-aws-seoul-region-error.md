@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AWS: 서울리전 장애:믿는 도끼에 발등" 
 excerpt_separator: <!--more-->
 ---

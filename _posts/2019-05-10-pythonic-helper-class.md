@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬 헬퍼클래스"
 excerpt_separator: <!--more-->
 categories:

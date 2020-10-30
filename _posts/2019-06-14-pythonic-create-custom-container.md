@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Pythonic: 파이썬 커스텀 컨테이너 생성하기"
 excerpt_separator: <!--more-->
 categories:

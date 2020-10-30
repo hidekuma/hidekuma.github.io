@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Linux: Ubuntu16.04: EC2: 어느날 갑자기 Read-only file system 으로 변해버렸을때"
 excerpt_separator: <!--more-->
 categories:

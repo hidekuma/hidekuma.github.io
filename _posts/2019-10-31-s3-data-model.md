@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AWS: s3의 데이터 모델"
 excerpt_separator: <!--more-->
 categories:

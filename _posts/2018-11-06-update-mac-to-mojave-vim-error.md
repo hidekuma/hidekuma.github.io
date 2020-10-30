@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "MacOS: 맥에서 Mojave(모하비) 업데이트 후 vim 에러"
 excerpt_separator: <!--more-->
 categories:

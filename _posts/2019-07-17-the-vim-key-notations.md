@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Vim: 비머 뉴비라면 보고가야할 키 노테이션 모음"
 excerpt_separator: <!--more-->
 categories:
