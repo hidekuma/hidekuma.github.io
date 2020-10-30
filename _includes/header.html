@@ -12,17 +12,6 @@
 					<a href="/">전체</a>
 				</li>			
 			{% endif %}
-			{% if page.path == "category.html" %}
-			<span class="title">
-				<li>
-					<a href="/category.html">카테고리</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/category">카테고리</a>
-				</li>			
-			{% endif %}
 			{% if page.path == "archive.html" %}
 			<span class="title">
 				<li>
@@ -32,6 +21,17 @@
 			{% else %}
 				<li>
 					<a href="/archive">블로그</a>
+				</li>			
+			{% endif %}
+			{% if page.path == "category.html" %}
+			<span class="title">
+				<li>
+					<a href="/category.html">카테고리</a>
+				</li>
+			</span>			
+			{% else %}
+				<li>
+					<a href="/category">카테고리</a>
 				</li>			
 			{% endif %}
 			{% if page.path == "about.html" %}
