@@ -6,44 +6,55 @@
 				<li>
 					<a href="/">전체</a>
 				</li>
-			</span>			
+			</span>
 			{% else %}
 				<li>
 					<a href="/">전체</a>
-				</li>			
+				</li>
 			{% endif %}
 			{% if page.path == "archive.md" %}
 			<span class="title">
 				<li>
 					<a href="/archive">블로그</a>
 				</li>
-			</span>			
+			</span>
 			{% else %}
 				<li>
 					<a href="/archive">블로그</a>
-				</li>			
+				</li>
 			{% endif %}
 			{% if page.path == "category.md" %}
 			<span class="title">
 				<li>
 					<a href="/category">카테고리</a>
 				</li>
-			</span>			
+			</span>
 			{% else %}
 				<li>
 					<a href="/category">카테고리</a>
-				</li>			
+				</li>
+			{% endif %}
+			{% if page.path == "tutorial.md" %}
+			<span class="title">
+				<li>
+					<a href="/tutorial">강의</a>
+				</li>
+			</span>
+			{% else %}
+				<li>
+					<a href="/tutorial">강의</a>
+				</li>
 			{% endif %}
 			{% if page.path == "about.md" %}
 			<span class="title">
 				<li>
-					<a href="/about">히읗이응</a>
+					<a href="/about">개발자</a>
 				</li>
-			</span>			
+			</span>
 			{% else %}
 				<li>
-					<a href="/about">히읗이응</a>
-				</li>			
+					<a href="/about">개발자</a>
+				</li>
 			{% endif %}
 		</div>
 		<div class="description search" id="js-search">

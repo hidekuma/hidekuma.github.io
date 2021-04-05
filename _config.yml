@@ -20,10 +20,14 @@ permalink: /:categories/:title/
 feed:
   path: feed.xml
 
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:categories/:title
+
 paginate: 5
 paginate_path: "/page/:num/"
 plugins:
   - jekyll-paginate
-  - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
