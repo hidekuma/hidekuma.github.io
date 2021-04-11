@@ -58,7 +58,7 @@ tags:
 | 유닛 테스트와 TDD             | 유닛테스트 그리고 TDD란?                                        |               |   [link](https://github.com/hidekuma/gogglekaap/wiki/N.1.-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80-TDD:-%EC%9C%A0%EB%8B%9B%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B7%B8%EB%A6%AC%EA%B3%A0-TDD%EB%9E%80%3F)|
 | 유닛 테스트와 TDD             | pytest fixture를 통한 테스트 환경 구축                          | 1.22.0        |   [link](https://github.com/hidekuma/gogglekaap/wiki/N.2.-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80-TDD:-pytest-fixture%EB%A5%BC-%ED%86%B5%ED%95%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95)|
 | 유닛 테스트와 TDD             | pytest 테스트 파일 분리 관리                                    | 1.23.0        |   [link](https://github.com/hidekuma/gogglekaap/wiki/N.3.-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80-TDD:-pytest-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EB%B6%84%EB%A6%AC-%EA%B4%80%EB%A6%AC)|
-| 마무리                        | 정리                                                            |               |   |
+| 마무리                        | 정리                                                            |               |   [link](https://github.com/hidekuma/gogglekaap/wiki/N.4.-%EA%B8%B0%EC%B4%88-%EB%A7%88%EB%AC%B4%EB%A6%AC-:-%EC%A0%95%EB%A6%AC)|
 
 --- 
 
