@@ -106,9 +106,9 @@ tags:
 |11/~K| 도커라이징                    | Flask, WSGI 도커라이징                                          | 2.33.0        |   [link](https://github.com/hidekuma/gogglekaap/wiki/~K.2.-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95:-Flask,-WSGI-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95)|
 |11/~K| 도커라이징                    | 도커 컴포즈를 통한 로컬 개발환경 구축                           | 2.34.0        |   [link](https://github.com/hidekuma/gogglekaap/wiki/~K.3.-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95:-%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A1%9C%EC%BB%AC-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95)|
 |11/~K| 도커라이징                    | 도커 컴포즈에 nginx 추가하기                                    | 2.35.0        |   [link](https://github.com/hidekuma/gogglekaap/wiki/~K.4.-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95:-%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%97%90-nginx-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0)|
-|12/~L| 배포                          | AWS EC2 인스턴스 생성                                           |               |   |
-|12/~L| 배포                          | RDS MYSQL 인스턴스 생성 및 데이터베이스 생성                    |               |   |
-|12/~L| 배포                          | EC2 소스와 데이터베이스 설정 하고 배포하기                      |               |   |
-|13/~M| 마무리                        | 정리 및 고찰                                                    |               |  |
+|12/~L| 배포                          | AWS EC2 인스턴스 생성                                           |               |[link](https://github.com/hidekuma/gogglekaap/wiki/~L.1.-%EB%B0%B0%ED%8F%AC:-AWS-EC2-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1)|
+|12/~L| 배포                          | RDS MYSQL 인스턴스 생성 및 데이터베이스 생성                    |               | [link](https://github.com/hidekuma/gogglekaap/wiki/~L.2.-%EB%B0%B0%ED%8F%AC:-RDS-MYSQL-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%83%9D%EC%84%B1)  |
+|12/~L| 배포                          | EC2 소스와 데이터베이스 설정 하고 배포하기                      |               | [link](https://github.com/hidekuma/gogglekaap/wiki/~L.3.-%EB%B0%B0%ED%8F%AC:-EC2-%EC%86%8C%EC%8A%A4%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95-%ED%95%98%EA%B3%A0-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)  |
+|13/~M| 마무리                        | 정리 및 고찰                                                    |               | [link](https://github.com/hidekuma/gogglekaap/wiki/~M.1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%88%EB%AC%B4%EB%A6%AC-:-%EC%A0%95%EB%A6%AC) |
 
 ---
