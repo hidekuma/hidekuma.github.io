@@ -1,10 +1,11 @@
 # Site settings
 title: 히데쿠마 개발블로그
+tagline: Hidekuma's devlog
 motto: 히데쿠마 개발블로그
 
 email: d.hidekuma@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  python, python3, opencv, numpy, 표준편차, 파이썬, 가상환경, pyenv, virtualenv, aws, s3, apigateway, chalice, cloudfront, credential, git, docker, swarm, dynamodb, ec2, graphql, gitbash, lambda, pycurl, pythonic, serverless, vim, zappa, pep8
+ 빼어난 것 없어, 남들만큼 삽질하다 습득한 개발 기록, Python을 가장 사랑합니다.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hidekuma.github.io"
 github_username:  hidekuma
