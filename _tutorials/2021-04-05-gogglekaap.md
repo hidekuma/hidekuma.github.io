@@ -6,10 +6,10 @@ author: hidekuma
 categories:
   - Python
   - Flask
-tags: 
+tags:
   - python
   - flask
-  - google 
+  - google
   - goggle keep
   - clone coding
 ---
@@ -60,7 +60,7 @@ tags:
 | 14/N | 3   | 유닛 테스트와 TDD      | pytest 테스트 파일 분리 관리                               | 1.23.0        | [link](https://github.com/hidekuma/gogglekaap/wiki/N.3.-%EC%9C%A0%EB%8B%9B-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80-TDD:-pytest-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%8C%8C%EC%9D%BC-%EB%B6%84%EB%A6%AC-%EA%B4%80%EB%A6%AC)                                                                                                                        |
 | 15/O | 1   | 마무리                 | 정리                                                       |               | [link](https://github.com/hidekuma/gogglekaap/wiki/O.1.-%EA%B8%B0%EC%B4%88-%EB%A7%88%EB%AC%B4%EB%A6%AC-:-%EC%A0%95%EB%A6%AC)                                                                                                                                                                                                             |
 
---- 
+---
 
 ### Flask 프로젝트: 기초에서 이어지는 Google Keep 클론코딩
 기초에서 만든 기능을 토대로 Google Keep 클론코딩을 진행합니다.
@@ -99,8 +99,8 @@ tags:
 | 8/~H  | 6   | 라벨 기본 기능 구현           | 라벨 추가, 조회 및 삭제 기능 프런트 반영                        | 2.28.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~H.6.-%EB%9D%BC%EB%B2%A8-%EA%B8%B0%EB%B3%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84:-%EB%9D%BC%EB%B2%A8-%EC%B6%94%EA%B0%80,-%EC%A1%B0%ED%9A%8C-%EB%B0%8F-%EC%82%AD%EC%A0%9C-%EA%B8%B0%EB%8A%A5-%ED%94%84%EB%9F%B0%ED%8A%B8-%EB%B0%98%EC%98%81)                                                                                                |
 | 9/~I  | 1   | 메모 라벨링 기능 업데이트     | 모델 M:N 관계 테이블 - 메모 라벨 모델 관계맺기, DB 마이그레이션 | 2.29.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.1.-%EB%AA%A8%EB%8D%B8-M:N-%EA%B4%80%EA%B3%84-%ED%85%8C%EC%9D%B4%EB%B8%94:-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8-%EB%AA%A8%EB%8D%B8-%EA%B4%80%EA%B3%84%EB%A7%BA%EA%B8%B0,-DB-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98)                                                                                                      |
 | 9/~I  | 2   | 메모 라벨링 기능 업데이트     | 메모 라벨링 테스트 케이스 작성                                  | 2.30.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.2.-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8:-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BC%80%EC%9D%B4%EC%8A%A4-%EC%9E%91%EC%84%B1)                                                                                                    |
-| 9/~I  | 2   | 메모 라벨링 기능 업데이트     | 메모 업데이트 API, 라벨링 기능 추가                             | 2.31.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.3.-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8:-%EB%A9%94%EB%AA%A8-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-API,-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80)                                                                                               |
-| 9/~I  | 3   | 메모 라벨링 기능 업데이트     | 메모 라벨링 기능 프런트 반영                                    | 2.32.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.4.-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8:-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%ED%94%84%EB%9F%B0%ED%8A%B8-%EB%B0%98%EC%98%81)                                                                                                             |
+| 9/~I  | 3   | 메모 라벨링 기능 업데이트     | 메모 업데이트 API, 라벨링 기능 추가                             | 2.31.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.3.-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8:-%EB%A9%94%EB%AA%A8-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-API,-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80)                                                                                               |
+| 9/~I  | 4   | 메모 라벨링 기능 업데이트     | 메모 라벨링 기능 프런트 반영                                    | 2.32.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~I.4.-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8:-%EB%A9%94%EB%AA%A8-%EB%9D%BC%EB%B2%A8%EB%A7%81-%EA%B8%B0%EB%8A%A5-%ED%94%84%EB%9F%B0%ED%8A%B8-%EB%B0%98%EC%98%81)                                                                                                             |
 | 10/~J | 1   | Flask 배포 스택 구성          | Flask 배포 스택                                                 |          | [link](https://github.com/hidekuma/gogglekaap/wiki/~J.1.-Flask-%EB%B0%B0%ED%8F%AC-%EC%8A%A4%ED%83%9D-%EA%B5%AC%EC%84%B1:-Flask-%EB%B0%B0%ED%8F%AC-%EC%8A%A4%ED%83%9D)                                                                                                                                                                                                                          |
 | 11/~K | 1   | 도커라이징                    | 도커에 대해서                                                   |          | [link](https://github.com/hidekuma/gogglekaap/wiki/~K.1.-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95:-%EB%8F%84%EC%BB%A4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)                                                                                                                                                                                                                               |
 | 11/~K | 2   | 도커라이징                    | Flask, WSGI 도커라이징                                          | 2.33.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~K.2.-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95:-Flask,-WSGI-%EB%8F%84%EC%BB%A4%EB%9D%BC%EC%9D%B4%EC%A7%95)                                                                                                                                                                                                                             |
