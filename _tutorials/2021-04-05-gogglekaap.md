@@ -14,6 +14,8 @@ tags:
   - clone coding
 ---
 
+### 강의링크
+- [한 번에 끝내는 파이썬 웹 개발 초격자 패키지](https://fastcampus.co.kr/dev_online_pyweb) - Flask 파트
 ### 리포지토리
 - [저장소](https://github.com/hidekuma/gogglekaap)
 
