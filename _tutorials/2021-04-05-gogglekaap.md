@@ -16,8 +16,16 @@ tags:
 
 ### 강의링크
 - [한 번에 끝내는 파이썬 웹 개발 초격자 패키지](https://fastcampus.co.kr/dev_online_pyweb) - Flask 파트
+
 ### 리포지토리
 - [저장소](https://github.com/hidekuma/gogglekaap)
+
+---
+
+##### 연관 게시물
+###### Python Flask 2 버전 무엇이 바뀌었나?
+<iframe style="width: 100%; max-width:560px; height:315px;" src="https://www.youtube.com/embed/vMb8Yed9JJc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
 
 ---
 
@@ -113,4 +121,3 @@ tags:
 | 12/~L | 3   | 배포                          | EC2 소스와 데이터베이스 설정 하고 배포하기                      |  2.36.0   | [link](https://github.com/hidekuma/gogglekaap/wiki/~L.3.-%EB%B0%B0%ED%8F%AC:-EC2-%EC%86%8C%EC%8A%A4%EC%99%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%84%A4%EC%A0%95-%ED%95%98%EA%B3%A0-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)                                                                                                                                                |
 | 13/~M | 1   | 마무리                        | 정리 및 고찰                                                    |          | [link](https://github.com/hidekuma/gogglekaap/wiki/~M.1.-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%88%EB%AC%B4%EB%A6%AC-:-%EC%A0%95%EB%A6%AC)                                                                                                                                                                                                                                                |
 
----
