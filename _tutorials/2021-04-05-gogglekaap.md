@@ -22,13 +22,6 @@ tags:
 
 ---
 
-##### 연관 게시물
-###### Python Flask 2 버전 무엇이 바뀌었나?
-<iframe style="width: 100%; max-width:560px; height:315px;" src="https://www.youtube.com/embed/vMb8Yed9JJc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-
----
-
 ### Flask 기초: Flask의 주요 기능과 템플릿 엔진을 통한 로그인 환경 구축
 기초에서는 어렵지 않은 선에서 Flask의 주된 기능을 살펴보고 학습합니다.
 
