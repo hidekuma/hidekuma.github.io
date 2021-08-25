@@ -20,6 +20,19 @@ tags:
 ### 리포지토리
 - [저장소](https://github.com/hidekuma/gogglekaap)
 
+### 의존성 패키지
+강의 완료 이후에 Flask2.0 버전이 출시되었네요. Flask 2를 지원하는 오픈소스를 다운로드 바랍니다.
+- python3.8
+- flask==1.1.2
+- alembic==1.5.6
+- Flask-Migrate==2.7.0
+- flask-restx==0.2.0
+- Flask-SQLAlchemy==2.4.4
+- Flask-WTF==0.14.3
+- PyMySQL==1.0.2
+- pytest==6.2.2
+- pytest-watch==4.2.0
+
 ---
 
 ### Flask 기초: Flask의 주요 기능과 템플릿 엔진을 통한 로그인 환경 구축
