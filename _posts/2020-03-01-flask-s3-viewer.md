@@ -10,7 +10,7 @@ tags:
 ---
 
 # 오픈소스, Flask S3 Viewer
-<iframe style="width: 100%; max-width:640px; height:480px;" src="https://youtube.com/embed/MPFo1scGlws?start=0" allowfullscreen="" frameborder="0" ></iframe>
+- [link](https://youtube.com/embed/MPFo1scGlws?start=0)
 
 ## 설치
 ```bash
