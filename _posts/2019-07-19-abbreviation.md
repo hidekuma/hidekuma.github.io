@@ -15,6 +15,9 @@ tags:
 ### AFAIK - "As Far As I Know"
 내가 아는 한.
 
+### IIRC - "If I Remember/Recall Correctly"
+내 기억이 맞다면.
+
 ### FYI - "For Your Information"
 참고로 라는 뜻. 웹상에서 마음에 드는 기사 나 뉴스가 보일때 , FYI라는 말과 함께 링크 URL을 보낼 때 등에 자주 사용된다.
 
